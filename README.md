@@ -27,5 +27,5 @@ DELETE: /api/intern/:id
 - If intern is not found in the database, it returns a message
 - If intern is found, it returns a message and intern data
 ```
-* For example:
+For example:
 > <https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05>
