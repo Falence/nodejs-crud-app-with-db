@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-crud-app-with-db",
+  "version": "1.0.0",
+  "description": "Zuri NodeJS Track Task 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falence/nodejs-crud-app-with-db.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Falence/nodejs-crud-app-with-db/issues"
+  },
+  "homepage": "https://github.com/Falence/nodejs-crud-app-with-db#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.12.8"
+  }
+}
