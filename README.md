@@ -12,6 +12,7 @@ POST: /api/intern/:id
 PUT: /api/intern/:id
 DELETE: /api/intern/:id
 ```
+An error message is returned for any other route
 
 1. #### GET: /api/interns
 ```
