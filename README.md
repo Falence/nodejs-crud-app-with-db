@@ -2,7 +2,7 @@
 Zuri NodeJS Track Task 3
 
 ## API Documentation
-**API is hosted at:** 
+**API is hosted at:** https://ancient-castle-80560.herokuapp.com/
 
 ### Available Routes and Verbs 
 ```
