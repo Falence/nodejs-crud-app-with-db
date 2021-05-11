@@ -43,7 +43,8 @@ For example:
 ```
 - Updates data of an intern with unique id
 - If intern does not exist in the database, it returns an error message
-- If intern with the specified id exist, its data is updated. After update, a message and intern's old data are returned
+- If intern with the specified id exist, its data is updated. After update,
+a message and intern's old data are returned
 ```
 For example:
 > <https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05>
