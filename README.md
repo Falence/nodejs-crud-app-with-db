@@ -51,7 +51,7 @@ and the created intern's data are returned
 - If intern with the specified id exist, its data is updated. After update,
 a message and intern's old data are returned
 ```
-> https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05
+``` https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05```
 
 
 4. #### DELETE: /api/interns/:id
