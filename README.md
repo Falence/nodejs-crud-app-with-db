@@ -34,8 +34,10 @@ For example:
 3. #### POST: /api/interns
 ```
 - Creates an intern
-- Returns an error message if the Model Schema Requirements (name, email and country) are not met
-- If Model Schema Requirements are met, the intern is created. It returns a message and the created intern's data
+- Returns an error message if the Model Schema Requirements (name, email and country)
+are not met
+- If Model Schema Requirements are met, the intern is created. It returns a message
+and the created intern's data
 ```
 
 
@@ -54,5 +56,6 @@ For example:
 ```
 - Deletes an intern with unique id
 - If intern does not exist in the database, it returns an error message
-- If intern with the specified id exist, that intern is then deleted. After deleted, a message and the deleted intern's  data are returned
+- If intern with the specified id exist, that intern is then deleted.
+After deleted, a message and the deleted intern's  data are returned
 ```
