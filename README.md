@@ -14,3 +14,8 @@ DELETE: /api/intern/:id
 ```
 
 1. #### GET: /api/interns
+```
+- Gets all intern in the database
+- If no intern is found in the database, it displays a "No Intern Found!" message
+> https://ancient-castle-80560.herokuapp.com/api/interns
+```
