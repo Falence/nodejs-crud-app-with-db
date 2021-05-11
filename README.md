@@ -18,7 +18,7 @@ An error message is returned for any other route
 ```
 - Gets all interns from the database
 - If no intern is found in the database, it returns a "No Intern Found!" message
-- If interns found in the database, it returns a message and data of all interns
+- If interns are found in the database, it returns a message and data of all interns
 ```
 > <https://ancient-castle-80560.herokuapp.com/api/interns>
 
