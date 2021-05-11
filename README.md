@@ -2,7 +2,7 @@
 Zuri NodeJS Track Task 3
 
 ## API Documentation
-> API is hosted at: 
+**API is hosted at:** 
 
 ### Available Routes and Verbs 
 ```
