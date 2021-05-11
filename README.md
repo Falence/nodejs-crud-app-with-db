@@ -39,7 +39,7 @@ For example:
 
 3. #### POST: /api/interns
 ```
-- Creates an intern
+- Creates an intern with json data provided via the request body
 - Returns an error message if the Model Schema Requirements (name, email and country)
 are not met. The name, email and country values are required, required to be string values
 and should be of 100 characters max
@@ -52,7 +52,7 @@ https://ancient-castle-80560.herokuapp.com/api/interns
 
 4. #### PUT: /api/interns/:id
 ```
-- Updates data about an intern with unique id
+- Updates data about an intern with unique id with json data provided via the request body
 - If intern with the specified id does not exist, it returns an error message
 - If intern with the specified id exist, its data is updated. After update,
 a message and intern's old data are returned
