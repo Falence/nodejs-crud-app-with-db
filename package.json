@@ -4,6 +4,7 @@
   "description": "Zuri NodeJS Track Task 3",
   "main": "index.js",
   "scripts": {
+    "start":"node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,8 +12,11 @@
     "url": "git+https://github.com/Falence/nodejs-crud-app-with-db.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Falence Lemungoh",
   "license": "ISC",
+  "engines": {
+    "node": "14.15.3"
+  },
   "bugs": {
     "url": "https://github.com/Falence/nodejs-crud-app-with-db/issues"
   },
