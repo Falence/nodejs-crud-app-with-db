@@ -52,7 +52,8 @@ https://ancient-castle-80560.herokuapp.com/api/interns
 
 4. #### PUT: /api/interns/:id
 ```
-- Updates data about an intern with unique id with json data provided via the request body
+- Updates data about an intern with unique id. New data about the interm is provided in
+json format via the request body
 - If intern with the specified id does not exist, it returns an error message
 - If intern with the specified id exist, its data is updated. After update,
 a message and intern's old data are returned
