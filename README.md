@@ -12,3 +12,5 @@ POST: /api/intern/:id
 PUT: /api/intern/:id
 DELETE: /api/intern/:id
 ```
+
+1. #### GET: /api/interns
