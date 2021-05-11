@@ -21,7 +21,7 @@ DELETE: /api/intern/:id
 > <https://ancient-castle-80560.herokuapp.com/api/interns>
 
 
-1. #### GET: /api/interns/:id
+2. #### GET: /api/interns/:id
 ```
 - Gets an intern from the database by his/her unique id
 - If intern is not found in the database, it returns a message
