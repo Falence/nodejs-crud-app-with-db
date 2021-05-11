@@ -42,7 +42,9 @@ and should be of 100 characters max
 - If Model Schema Requirements are met, the intern is created. A success message
 and the created intern's data are returned
 ```
-
+```
+https://ancient-castle-80560.herokuapp.com/api/interns
+```
 
 4. #### PUT: /api/interns/:id
 ```
@@ -51,7 +53,9 @@ and the created intern's data are returned
 - If intern with the specified id exist, its data is updated. After update,
 a message and intern's old data are returned
 ```
-``` https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05```
+```
+https://ancient-castle-80560.herokuapp.com/api/interns/:id
+```
 
 
 4. #### DELETE: /api/interns/:id
@@ -60,4 +64,7 @@ a message and intern's old data are returned
 - If intern with the specified does not exist, it returns an error message
 - If intern with the specified id exist, that intern is then deleted.
 After being deleted, a message and the deleted intern's  data are returned
+```
+```
+https://ancient-castle-80560.herokuapp.com/api/interns/:id
 ```
