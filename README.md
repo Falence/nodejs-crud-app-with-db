@@ -17,7 +17,8 @@ An error message is returned for any other route
 1. #### GET: /api/interns
 ```
 - Gets all interns from the database
-- If no intern is found in the database, it returns a message"
+- If no intern is found in the database, it returns a "No Intern Found!" message
+- If interns found in the database, it returns a message and data of all interns
 ```
 > <https://ancient-castle-80560.herokuapp.com/api/interns>
 
