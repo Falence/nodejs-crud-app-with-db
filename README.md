@@ -8,13 +8,13 @@ Zuri NodeJS Track Task 3
 
 > GET: **/api/interns**
 
-> GET: **/api/intern/:id**
+> GET: **/api/interns/:id**
 
-> POST: **/api/intern/:id**
+> POST: **/api/interns/:id**
 
-> PUT: **/api/intern/:id**
+> PUT: **/api/interns/:id**
 
-> DELETE: **/api/intern/:id**
+> DELETE: **/api/interns/:id**
 
 An error message is returned for any other route
 
