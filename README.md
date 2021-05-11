@@ -15,7 +15,7 @@ DELETE: /api/intern/:id
 
 1. #### GET: /api/interns
 ```
-- Gets all interns in the database
+- Gets all interns from the database
 - If no intern is found in the database, it returns a message"
 ```
 > <https://ancient-castle-80560.herokuapp.com/api/interns>
@@ -29,3 +29,29 @@ DELETE: /api/intern/:id
 ```
 For example:
 > <https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05>
+
+
+3. #### POST: /api/interns
+```
+- Creates an intern
+- Returns an error message if the Model Schema Requirements (name, email and country) are not met
+- If Model Schema Requirements are met, the intern is created. It returns a message and the created intern's data
+```
+
+
+4. #### PUT: /api/interns/:id
+```
+- Updates data of an intern with unique id
+- If intern does not exist in the database, it returns an error message
+- If intern with the specified id exist, its data is updated. After update, a message and intern's old data are returned
+```
+For example:
+> <https://ancient-castle-80560.herokuapp.com/api/interns/609a74d1389e310015bdce05>
+
+
+4. #### DELETE: /api/interns/:id
+```
+- Deletes an intern with unique id
+- If intern does not exist in the database, it returns an error message
+- If intern with the specified id exist, that intern is then deleted. After deleted, a message and the deleted intern's  data are returned
+```
