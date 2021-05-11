@@ -6,7 +6,7 @@ Zuri NodeJS Track Task 3
 
 ### Available Routes and Verbs 
 ```
-GET: */api/interns*
+GET: /api/interns
 GET: /api/intern/:id
 POST: /api/intern/:id
 PUT: /api/intern/:id
