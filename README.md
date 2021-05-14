@@ -42,7 +42,8 @@ For example:
 - Creates an intern with json data provided via the request body
 - Returns an error message if the Model Schema Requirements (name, email and country)
 are not met. The name, email and country values are required, required to be string values
-and should be of 100 characters max
+and should be of 100 characters max.
+- If an email has already been taken, an error message is returned
 - If Model Schema Requirements are met, the intern is created. A success message
 and the created intern's data are returned
 ```
