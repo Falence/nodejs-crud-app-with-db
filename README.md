@@ -58,7 +58,7 @@ https://ancient-castle-80560.herokuapp.com/api/interns
 json format via the request body
 - If intern with the specified id does not exist, it returns an error message
 - If intern with the specified id exist, its data is updated. After update,
-a message and intern's old data are returned
+a message and intern's updated data are returned
 ```
 ```
 https://ancient-castle-80560.herokuapp.com/api/interns/:id
