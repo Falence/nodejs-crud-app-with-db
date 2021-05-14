@@ -6,7 +6,8 @@ const InternSchema = new Schema({
     name: {
         type: String,
         required: [true, 'Please provide your name'],
-        maxLength: 100
+        maxLength: 100,
+        minLength: 3
     },
     email: {
         type: String,
@@ -19,7 +20,8 @@ const InternSchema = new Schema({
     country: {
         type: String, 
         required: [true, 'Please provide your country'], 
-        maxLength: 100
+        maxLength: 100,
+        minLength: 2
     }
 })
 
