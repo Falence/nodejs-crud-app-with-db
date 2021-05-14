@@ -5,20 +5,20 @@ const validator = require('validator')
 const InternSchema = new Schema({
     name: {
         type: String,
-        required: true,
+        required: [true, 'Please provide your name'],
         maxLength: 100
     },
     email: {
         type: String,
-        required: true,
+        required: [true, 'Please provide your email'],
         maxLength: 100,
-        unique: true,
+        unique: [true, 'This email is already taken'],
         lowercase: true,
         validate: [validator.isEmail, 'Please provide a valid email']
     },
     country: {
         type: String, 
-        required: true, 
+        required: [true, 'Please provide your country'], 
         maxLength: 100
     }
 })
