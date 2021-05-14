@@ -4,7 +4,7 @@
   "description": "Zuri NodeJS Track Task 3",
   "main": "index.js",
   "scripts": {
-    "start":"node app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +23,7 @@
   "homepage": "https://github.com/Falence/nodejs-crud-app-with-db#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.12.8"
+    "mongoose": "^5.12.8",
+    "validator": "^13.6.0"
   }
 }
