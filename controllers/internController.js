@@ -95,7 +95,7 @@ exports.updateIntern = async (req, res) => {
   
           res.status(200).json({
             message: "Intern Successfully Updated!",
-            data: intern
+            data: req.body
           })
         })
       } catch(err){
