@@ -44,6 +44,7 @@ For example:
 are not met. The name, email and country values are required, required to be string values
 and should be of 100 characters max.
 - If an email has already been taken, an error message is returned
+- If an invalid email format is provided, an error message is returned
 - If Model Schema Requirements are met, the intern is created. A success message
 and the created intern's data are returned
 ```
